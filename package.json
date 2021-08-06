@@ -1,0 +1,20 @@
+{
+  "name": "ts-ws",
+  "version": "1.0.0",
+  "description": "Test Workspace for TypeScript.",
+  "main": "index.ts",
+  "module": "es6",
+  "scripts": {
+    "start": "ts-node -r tsconfig-paths/register src/app.ts"
+  },
+  "keywords": [],
+  "author": "Doom",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^16.4.13",
+    "ts-node": "^10.1.0",
+    "ts-node-dev": "^1.1.8",
+    "tsconfig-paths": "^3.10.1",
+    "typescript": "^4.3.5"
+  }
+}
